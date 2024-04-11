@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRobotCommSystem.a CMakeFiles/RobotCommSystem.dir/RobotCommSystem_autogen/mocs_compilation.cpp.o CMakeFiles/RobotCommSystem.dir/source/HostAddressRadio.cpp.o CMakeFiles/RobotCommSystem.dir/source/RCS_Client.cpp.o CMakeFiles/RobotCommSystem.dir/source/RCS_Server.cpp.o CMakeFiles/RobotCommSystem.dir/source/TcpConnect.cpp.o
+/usr/bin/ranlib libRobotCommSystem.a

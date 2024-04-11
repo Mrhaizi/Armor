@@ -1,0 +1,345 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "modules",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules"
+				},
+				{
+					"build" : "modules/OpenCV_Util",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "modules/OpenCV_Util",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "modules/Qt_Util",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "modules/Qt_Util",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "modules/Realsense_Util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "modules/Realsense_Util"
+				},
+				{
+					"build" : "modules/RobotCommSystem",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "modules/RobotCommSystem",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"build" : "modules/RobotCommSystem/RobotCommSystemServer",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "modules/RobotCommSystem/RobotCommSystemServer",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "modules/VCOMCOMM",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "modules/VCOMCOMM",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "modules/loggerFactory",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "modules/loggerFactory",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "KdrobotCppLibs"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "OpenCV_Util",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Qt_Util",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Realsense_Util",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "RobotCommSystem",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "RobotCommSystemServer",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "VCOMCOMM",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "loggerFactory",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenCV_Util::@4d7045816ca30d774700",
+					"jsonFile" : "target-OpenCV_Util-Debug-d78001d93244dc44a200.json",
+					"name" : "OpenCV_Util",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Qt_Util::@bf2d060c4886bb0f97cf",
+					"jsonFile" : "target-Qt_Util-Debug-2c39a2bdb2ceb810bf58.json",
+					"name" : "Qt_Util",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Qt_Util_autogen::@bf2d060c4886bb0f97cf",
+					"jsonFile" : "target-Qt_Util_autogen-Debug-27fcf818725ad01044b7.json",
+					"name" : "Qt_Util_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "RobotCommSystem::@1499f2c85006e3a2a885",
+					"jsonFile" : "target-RobotCommSystem-Debug-4efa1613a3f360a7ea08.json",
+					"name" : "RobotCommSystem",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RobotCommSystemServer::@3cf4aec471d1d8a2d218",
+					"jsonFile" : "target-RobotCommSystemServer-Debug-320fc518b35e7b07cc43.json",
+					"name" : "RobotCommSystemServer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RobotCommSystemServer_autogen::@3cf4aec471d1d8a2d218",
+					"jsonFile" : "target-RobotCommSystemServer_autogen-Debug-14c8806e85b4e19594fc.json",
+					"name" : "RobotCommSystemServer_autogen",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "RobotCommSystem_autogen::@1499f2c85006e3a2a885",
+					"jsonFile" : "target-RobotCommSystem_autogen-Debug-8d5ad45e92f378effa5e.json",
+					"name" : "RobotCommSystem_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "VCOMCOMM::@502d51d0d7c611c05cd0",
+					"jsonFile" : "target-VCOMCOMM-Debug-cd6a48aa2b92b978c09b.json",
+					"name" : "VCOMCOMM",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "VCOMCOMM_autogen::@502d51d0d7c611c05cd0",
+					"jsonFile" : "target-VCOMCOMM_autogen-Debug-7ef109131abe75a60a35.json",
+					"name" : "VCOMCOMM_autogen",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "loggerFactory::@3096e2e7d530e84a1eed",
+					"jsonFile" : "target-loggerFactory-Debug-3eadf9319e888122bee8.json",
+					"name" : "loggerFactory",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mzy/Desktop/KdrobotCppLibs-master/build",
+		"source" : "/home/mzy/Desktop/KdrobotCppLibs-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

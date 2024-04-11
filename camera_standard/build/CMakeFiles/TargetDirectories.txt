@@ -1,0 +1,3 @@
+/home/mayuqi/桌面/Armor/camera_standard/build/CMakeFiles/camera.dir
+/home/mayuqi/桌面/Armor/camera_standard/build/CMakeFiles/edit_cache.dir
+/home/mayuqi/桌面/Armor/camera_standard/build/CMakeFiles/rebuild_cache.dir

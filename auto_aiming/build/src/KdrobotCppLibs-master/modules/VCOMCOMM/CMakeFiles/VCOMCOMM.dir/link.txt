@@ -1,0 +1,2 @@
+/usr/bin/ar qc libVCOMCOMM.a CMakeFiles/VCOMCOMM.dir/VCOMCOMM_autogen/mocs_compilation.cpp.o CMakeFiles/VCOMCOMM.dir/source/VCOMCOMM.cpp.o
+/usr/bin/ranlib libVCOMCOMM.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkit.a CMakeFiles/kit.dir/src/kit.cpp.o
+/usr/bin/ranlib libkit.a

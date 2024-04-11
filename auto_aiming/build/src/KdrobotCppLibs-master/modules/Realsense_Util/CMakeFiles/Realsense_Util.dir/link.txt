@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRealsense_Util.a CMakeFiles/Realsense_Util.dir/Realsense_Util_autogen/mocs_compilation.cpp.o CMakeFiles/Realsense_Util.dir/source/Realsense.cpp.o CMakeFiles/Realsense_Util.dir/source/RealsenseFrame.cpp.o
+/usr/bin/ranlib libRealsense_Util.a

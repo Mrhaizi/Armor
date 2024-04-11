@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQt_Util.a CMakeFiles/Qt_Util.dir/Qt_Util_autogen/mocs_compilation.cpp.o CMakeFiles/Qt_Util.dir/source/CRC.cpp.o CMakeFiles/Qt_Util.dir/source/JsonConfig.cpp.o CMakeFiles/Qt_Util.dir/source/MainThread.cpp.o
+/usr/bin/ranlib libQt_Util.a

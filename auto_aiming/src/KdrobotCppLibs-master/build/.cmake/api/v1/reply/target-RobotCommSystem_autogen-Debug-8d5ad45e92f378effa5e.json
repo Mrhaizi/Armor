@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"modules/RobotCommSystem/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "Qt_Util::@bf2d060c4886bb0f97cf"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "loggerFactory::@3096e2e7d530e84a1eed"
+		}
+	],
+	"id" : "RobotCommSystem_autogen::@1499f2c85006e3a2a885",
+	"isGeneratorProvided" : true,
+	"name" : "RobotCommSystem_autogen",
+	"paths" : 
+	{
+		"build" : "modules/RobotCommSystem",
+		"source" : "modules/RobotCommSystem"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/RobotCommSystem/CMakeFiles/RobotCommSystem_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/RobotCommSystem/CMakeFiles/RobotCommSystem_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

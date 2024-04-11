@@ -1,0 +1,103 @@
+{
+	"BUILD_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/VCOMCOMM_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/VCOMCOMM",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/VCOMCOMM/CMakeLists.txt",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeParseArguments.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"/opt/Qt5/5.12.12/gcc_64/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/VCOMCOMM/include/VCOMCOMM.h",
+			"MU",
+			"6YEA5652QU/moc_VCOMCOMM.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/VCOMCOMM_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/VCOMCOMM_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"SPDLOG_COMPILED_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/VCOMCOMM/include",
+		"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/loggerFactory/include",
+		"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/Qt_Util/include",
+		"/opt/Qt5/5.12.12/gcc_64/include",
+		"/opt/Qt5/5.12.12/gcc_64/include/QtCore",
+		"/opt/Qt5/5.12.12/gcc_64/mkspecs/linux-g++",
+		"/opt/Qt5/5.12.12/gcc_64/include/QtSerialPort",
+		"/usr/local/include",
+		"/usr/include/c++/11",
+		"/usr/include/x86_64-linux-gnu/c++/11",
+		"/usr/include/c++/11/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/VCOMCOMM_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 12,
+	"PARSE_CACHE_FILE" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/CMakeFiles/VCOMCOMM_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/Qt5/5.12.12/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/mayuqi/\u684c\u9762/Armor/auto_aiming/build/src/KdrobotCppLibs-master/modules/VCOMCOMM/CMakeFiles/VCOMCOMM_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/mayuqi/\u684c\u9762/Armor/auto_aiming/src/KdrobotCppLibs-master/modules/VCOMCOMM/source/VCOMCOMM.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

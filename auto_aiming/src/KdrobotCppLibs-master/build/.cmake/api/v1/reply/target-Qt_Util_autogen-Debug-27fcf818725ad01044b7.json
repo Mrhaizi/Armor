@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"modules/Qt_Util/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "loggerFactory::@3096e2e7d530e84a1eed"
+		}
+	],
+	"id" : "Qt_Util_autogen::@bf2d060c4886bb0f97cf",
+	"isGeneratorProvided" : true,
+	"name" : "Qt_Util_autogen",
+	"paths" : 
+	{
+		"build" : "modules/Qt_Util",
+		"source" : "modules/Qt_Util"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/Qt_Util/CMakeFiles/Qt_Util_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/Qt_Util/CMakeFiles/Qt_Util_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

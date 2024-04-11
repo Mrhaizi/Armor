@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOpenCV_Util.a  CMakeFiles/OpenCV_Util.dir/source/OpenCV_Util.cpp.o CMakeFiles/OpenCV_Util.dir/source/PNP_Calculate.cpp.o CMakeFiles/OpenCV_Util.dir/source/coordinate.cpp.o
+/usr/bin/ranlib libOpenCV_Util.a

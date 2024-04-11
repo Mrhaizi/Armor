@@ -1,0 +1,2 @@
+/usr/bin/ar qc libloggerFactory.a CMakeFiles/loggerFactory.dir/source/spdlogger.cpp.o CMakeFiles/loggerFactory.dir/source/BackTrace.cpp.o CMakeFiles/loggerFactory.dir/source/spdUtil.cpp.o
+/usr/bin/ranlib libloggerFactory.a

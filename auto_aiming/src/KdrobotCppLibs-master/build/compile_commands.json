@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/OpenCV_Util",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/include -isystem /usr/include/opencv4  -g   -fopenmp -o CMakeFiles/OpenCV_Util.dir/source/OpenCV_Util.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/OpenCV_Util.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/OpenCV_Util.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/OpenCV_Util",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/include -isystem /usr/include/opencv4  -g   -fopenmp -o CMakeFiles/OpenCV_Util.dir/source/PNP_Calculate.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/PNP_Calculate.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/PNP_Calculate.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/OpenCV_Util",
+  "command": "/usr/bin/g++  -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/include -isystem /usr/include/opencv4  -g   -fopenmp -o CMakeFiles/OpenCV_Util.dir/source/coordinate.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/coordinate.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/OpenCV_Util/source/coordinate.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/Qt_Util.dir/Qt_Util_autogen/mocs_compilation.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/mocs_compilation.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/Qt_Util.dir/source/CRC.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/CRC.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/CRC.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/Qt_Util.dir/source/JsonConfig.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/JsonConfig.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/JsonConfig.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/Qt_Util/Qt_Util_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/Qt_Util.dir/source/MainThread.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/MainThread.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/source/MainThread.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystem.dir/RobotCommSystem_autogen/mocs_compilation.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/mocs_compilation.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystem.dir/source/HostAddressRadio.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/HostAddressRadio.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/HostAddressRadio.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystem.dir/source/RCS_Client.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/RCS_Client.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/RCS_Client.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystem.dir/source/RCS_Server.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/RCS_Server.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/RCS_Server.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystem_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystem.dir/source/TcpConnect.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/TcpConnect.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/source/TcpConnect.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/RobotCommSystemServer -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystemServer.dir/RobotCommSystemServer_autogen/mocs_compilation.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/mocs_compilation.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_NETWORK_LIB -DSPDLOG_COMPILED_LIB -D__DEBUG__ -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/RobotCommSystemServer -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork  -g   -fPIC -std=gnu++11 -o CMakeFiles/RobotCommSystemServer.dir/main.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/RobotCommSystemServer/main.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/RobotCommSystemServer/main.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_SERIALPORT_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM/VCOMCOMM_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/VCOMCOMM/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -o CMakeFiles/VCOMCOMM.dir/VCOMCOMM_autogen/mocs_compilation.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM/VCOMCOMM_autogen/mocs_compilation.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM/VCOMCOMM_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_SERIALPORT_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/VCOMCOMM/VCOMCOMM_autogen/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/VCOMCOMM/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -o CMakeFiles/VCOMCOMM.dir/source/VCOMCOMM.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/VCOMCOMM/source/VCOMCOMM.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/VCOMCOMM/source/VCOMCOMM.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/loggerFactory",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/loggerFactory.dir/source/spdlogger.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/spdlogger.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/spdlogger.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/loggerFactory",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/loggerFactory.dir/source/BackTrace.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/BackTrace.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/BackTrace.cpp"
+},
+{
+  "directory": "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/loggerFactory",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DSPDLOG_COMPILED_LIB -I/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/loggerFactory.dir/source/spdUtil.cpp.o -c /home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/spdUtil.cpp",
+  "file": "/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/source/spdUtil.cpp"
+}
+]

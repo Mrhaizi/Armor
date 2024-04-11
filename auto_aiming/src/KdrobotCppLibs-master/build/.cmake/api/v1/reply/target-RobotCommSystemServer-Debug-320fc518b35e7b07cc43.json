@@ -1,0 +1,291 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"modules/RobotCommSystem/RobotCommSystemServer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "__DEBUG__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer"
+				},
+				{
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/RobotCommSystemServer"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/modules/RobotCommSystem/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/modules/loggerFactory/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/mzy/Desktop/KdrobotCppLibs-master/modules/Qt_Util/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Qt_Util::@bf2d060c4886bb0f97cf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "RobotCommSystem::@1499f2c85006e3a2a885"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "loggerFactory::@3096e2e7d530e84a1eed"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "RobotCommSystemServer_autogen::@3cf4aec471d1d8a2d218"
+		}
+	],
+	"id" : "RobotCommSystemServer::@3cf4aec471d1d8a2d218",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin/Debug"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local/KdrobotCppLibs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libspdlog.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../libRobotCommSystem.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../loggerFactory/libloggerFactory.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../Qt_Util/libQt_Util.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../loggerFactory/libloggerFactory.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libspdlog.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RobotCommSystemServer",
+	"nameOnDisk" : "RobotCommSystemServer",
+	"paths" : 
+	{
+		"build" : "modules/RobotCommSystem/RobotCommSystemServer",
+		"source" : "modules/RobotCommSystem/RobotCommSystemServer"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/RobotCommSystem/RobotCommSystemServer/RobotCommSystemServer_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/RobotCommSystem/RobotCommSystemServer/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modules/RobotCommSystem/RobotCommSystemServer/main.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

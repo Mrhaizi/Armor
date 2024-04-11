@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopenvino.a CMakeFiles/openvino.dir/src/openvino.cpp.o
+/usr/bin/ranlib libopenvino.a
