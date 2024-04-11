@@ -1,3 +1,9 @@
-build/
+.idea/
+.cache/
 .vscode/
-
+cmake-build-*/
+build/
+log/
+video/
+docs/
+install/
