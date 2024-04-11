@@ -2,8 +2,8 @@
  * @Author: myq 2127800097@qq.com
  * @Date: 2024-04-04 18:18:39
  * @LastEditors: myq 2127800097@qq.com
- * @LastEditTime: 2024-04-04 20:17:10
- * @FilePath: /detect_armor2/detect_lights/src/detect_lights/src/detect_armors.cpp
+ * @LastEditTime: 2024-04-11 18:52:54
+ * @FilePath: /Armor/auto_aiming/src/detect_armor/src/match_armors.cpp
  * @Description: 
  * 
  * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
@@ -54,7 +54,7 @@ bool ArmorDetect::MatchSlotArmor(const Armor &armor) {
         cv::imshow("deep_learn", now_image);
         float iou = Kit::ComputeIouRect(a.rect, armor.rect);
         std::cout << iou << std::endl;
-        if ((a.classification == 5 || a.classification == 4) && iou > 0) {
+        if ((a.classification == 3 || a.classification == 4 || a.classification == 1 || a.classification == 2 || a.classification == 5) && iou > 0) {
             delete infer_result;
             infer_result = nullptr;
             return 1;
@@ -109,9 +109,6 @@ void ArmorDetect::CreateNumberImage(const cv::Mat &src, std::vector<Armor> &armo
         cv::Rect rect(armor.left_on_point.x + 1000, armor.left_on_point.y +  1000, armor.armor_width + 200, armor.armor_lenth + 200);
 
         cv::Mat number_image = wait_trackle_imgae(rect);
-        // cv::cvtColor(number_image, number_image, cv::COLOR_RGB2GRAY);
-        // cv::threshold(number_image, number_image, 0, 255, cv::THRESH_BINARY | cv::THRESH_OTSU);
-        // cv::threshold(number_image, number_image, 30, 255, 0);
         cv::imshow("2", number_image);
         armor.number_image = number_image;
     }
@@ -139,7 +136,7 @@ void ArmorDetect::Run(const cv::Mat &image) {
         if (MatchSlotArmor(armor)) {
             wait_delete_armor.push_back(armor);
         } else {
-            // std::cout << "假装甲板" << std::endl;
+            std::cout << "假装甲板" << std::endl;
         }
     }
     if (wait_delete_armor.size() == 1) {
